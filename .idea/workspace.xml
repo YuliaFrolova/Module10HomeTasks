@@ -4,14 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8bd5bcf1-4453-446c-8c1a-7f540c5c49cc" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Module10HomeTask.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+    <list default="true" id="8bd5bcf1-4453-446c-8c1a-7f540c5c49cc" name="Changes" comment="Created class ReaderWriterExample. Added file.txt. Added phoneNumbers to file.txt.">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ReaderWriterExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ReaderWriterExample.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,6 +47,18 @@
       <option name="presentableId" value="Default" />
       <updated>1688391586400</updated>
     </task>
+    <task id="LOCAL-00001" summary="Created class ReaderWriterExample. Added file.txt. Added phoneNumbers to file.txt.">
+      <created>1688392822538</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1688392822538</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Created class ReaderWriterExample. Added file.txt. Added phoneNumbers to file.txt." />
+    <option name="LAST_COMMIT_MESSAGE" value="Created class ReaderWriterExample. Added file.txt. Added phoneNumbers to file.txt." />
   </component>
 </project>
