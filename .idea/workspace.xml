@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8bd5bcf1-4453-446c-8c1a-7f540c5c49cc" name="Changes" comment="Finished first task">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/resources/writer/file.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/writer/file.txt" afterDir="false" />
-    </list>
+    <list default="true" id="8bd5bcf1-4453-446c-8c1a-7f540c5c49cc" name="Changes" comment=" Finised second task" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -61,13 +58,21 @@
       <option name="project" value="LOCAL" />
       <updated>1688403900203</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary=" Finised second task">
+      <created>1689159249024</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1689159249024</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Created class ReaderWriterExample. Added file.txt. Added phoneNumbers to file.txt." />
     <MESSAGE value="Finished first task" />
-    <option name="LAST_COMMIT_MESSAGE" value="Finished first task" />
+    <MESSAGE value=" Finised second task" />
+    <option name="LAST_COMMIT_MESSAGE" value=" Finised second task" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Module10HomeTask$TaskThree.ic" NAME="TaskThree Coverage Results" MODIFIED="1688646649380" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
