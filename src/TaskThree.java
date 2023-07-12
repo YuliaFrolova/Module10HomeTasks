@@ -1,12 +1,11 @@
 import java.io.*;
-import java.util.Arrays;
-import java.util.HashMap;
-import java.util.Map;
+import java.util.*;
 
 public class TaskThree {
     private static String ABSOLUTE_PATH = "C:\\Users\\User\\IdeaProjects\\Module10HomeTask\\src\\resources\\writer\\words.txt";
 
     public static void main(String[] args) {
+        ArrayList<String> res = new ArrayList<>();
         File file = new File(ABSOLUTE_PATH);
         if (!file.exists()) {
             file.getParentFile().mkdirs();
@@ -16,28 +15,23 @@ public class TaskThree {
                 System.err.println(e.getMessage());
             }
         }
-        //the day is sunny the the
-        //the sunny is is
+
         try (BufferedWriter bufferedWriter = new BufferedWriter(new FileWriter(file))) {
-            Map<Integer, String> words =  new HashMap<>();
-            words.put(1, "the ");
-            words.put(2, "day ");
-            words.put(3, "is ");
-            words.put(4, "sunny ");
-            words.put(5, "the ");
-            words.put(6, "the \n");
-            words.put(7, "the ");
-            words.put(8, "sunny ");
-            words.put(9, "is ");
-            words.put(10, "is ");
-            String[] result = words.values().toArray(new String[0]);
-            bufferedWriter.write(Arrays.toString(result));
+            bufferedWriter.write("the ");
+            bufferedWriter.write("day ");
+            bufferedWriter.write("is ");
+            bufferedWriter.write("sunny ");
+            bufferedWriter.write("the ");
+            bufferedWriter.write("the\n");
+            bufferedWriter.write("the ");
+            bufferedWriter.write("sunny ");
+            bufferedWriter.write("is ");
+            bufferedWriter.write("is\n");
 
 
-
-        }catch (IOException e){
-        System.err.println(e.getMessage());
-    }
+        } catch (IOException e) {
+            System.err.println(e.getMessage());
+        }
         if (!file.exists()) {
             file.getParentFile().mkdirs();
             try {
@@ -46,26 +40,31 @@ public class TaskThree {
                 System.err.println(e.getMessage());
             }
         }
-            try (BufferedReader reader = new BufferedReader(new FileReader(file))) {
-                String line = reader.readLine();
-                int count = 1;
-                while (line != null) {
-                   reader.readLine();
+        try (BufferedReader reader = new BufferedReader(new FileReader(file))) {
+            String line = reader.readLine();
+
+            while (line != null) {
+                res.add(line);
+                line = reader.readLine();
 
 
+            }
 
+            String[] result = res.toString().split("\\s+");
+            HashMap<String, Integer> hMap = new HashMap<>();
+            for (int i = 0; i < result.length; i++) {
+                if (hMap.containsKey(result[i])) {
+                    int count = hMap.get(result[i]);
+                    hMap.put(result[i], count + 1);
+                } else {
+                    hMap.put(result[i], 1);
                 }
-                String[] res = new String[] {reader.toString()};
-                for (int i = 0; i < res.length; i++) {
-                    if (res[i] == res[i++]){
-                        count ++;
-                    }
+            }
+            hMap.entrySet().stream()
+                    .sorted(HashMap.Entry.<String, Integer>comparingByValue().reversed())
+                    .forEach(System.out::println);
 
-                }
-                System.out.println("the: " + count );
-                System.out.println("day: " + count);
-                System.out.println("is: " + count);
-                System.out.println("sunny: " + count);
+
 
 
             }catch (IOException e){
