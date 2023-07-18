@@ -70,8 +70,9 @@ import java.util.ArrayList;
                 String line = bufferedReader.readLine();
                 while (line != null) {
 
-                    line = bufferedReader.readLine();
 
+                    System.out.println(line);
+                    line = bufferedReader.readLine();
 
 
                 }
