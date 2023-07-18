@@ -22,7 +22,7 @@ public class TaskThree {
             bufferedWriter.write("is ");
             bufferedWriter.write("sunny ");
             bufferedWriter.write("the ");
-            bufferedWriter.write("the\n");
+            bufferedWriter.write("the ");
             bufferedWriter.write("the ");
             bufferedWriter.write("sunny ");
             bufferedWriter.write("is ");
@@ -44,15 +44,21 @@ public class TaskThree {
             String line = reader.readLine();
 
             while (line != null) {
+
                 res.add(line);
                 line = reader.readLine();
 
 
+
             }
 
+
+
             String[] result = res.toString().split("\\s+");
+
+
             HashMap<String, Integer> hMap = new HashMap<>();
-            for (int i = 0; i < result.length; i++) {
+            for (int i = 1; i < result.length-1; i++) {
                 if (hMap.containsKey(result[i])) {
                     int count = hMap.get(result[i]);
                     hMap.put(result[i], count + 1);

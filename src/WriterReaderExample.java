@@ -40,7 +40,7 @@ import java.util.ArrayList;
 
 
                 }
-                System.out.println(result.toString());
+
 
 
 
@@ -68,6 +68,7 @@ import java.util.ArrayList;
             }
             try (BufferedReader bufferedReader = new BufferedReader(new FileReader(file))) {
                 String line = bufferedReader.readLine();
+
                 while (line != null) {
 
 
