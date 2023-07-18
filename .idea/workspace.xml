@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8bd5bcf1-4453-446c-8c1a-7f540c5c49cc" name="Changes" comment="Third task saving">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/WriterReaderExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/WriterReaderExample.java" afterDir="false" />
-    </list>
+    <list default="true" id="8bd5bcf1-4453-446c-8c1a-7f540c5c49cc" name="Changes" comment="Finished hometask module 10" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -82,7 +79,14 @@
       <option name="project" value="LOCAL" />
       <updated>1689164643120</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Finished hometask module 10">
+      <created>1689674780263</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1689674780263</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -90,7 +94,8 @@
     <MESSAGE value="Finished first task" />
     <MESSAGE value=" Finised second task" />
     <MESSAGE value="Third task saving" />
-    <option name="LAST_COMMIT_MESSAGE" value="Third task saving" />
+    <MESSAGE value="Finished hometask module 10" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finished hometask module 10" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Module10HomeTask$TaskThree.ic" NAME="TaskThree Coverage Results" MODIFIED="1688646649380" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
